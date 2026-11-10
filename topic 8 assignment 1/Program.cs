@@ -34,7 +34,7 @@
                 int randomNumber = Generator.Next(min, max + 1);
                 randomNum.Add(randomNumber);
             }
-
+             
 
             Console.WriteLine("Your random numbers are: ");
             Console.WriteLine(string.Join(" ", randomNum));
